@@ -1,9 +1,38 @@
 
 .different__title{
+    margin-bottom: 96px;
     color: #2C2830;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
     line-height: 64px; 
     letter-spacing: -1px;
+}
+.different__list{
+    display: flex;
+}
+.different__item{
+    width: 350px;
+}
+.different__item+.different__item{
+    margin-left: 30px;
+}
+.different__img{
+    margin-bottom: 32px;
+}
+.different__item-title{
+    margin-bottom: 16px;
+    color: #2C2830;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+}
+.different__text{
+    color: #837D88;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }

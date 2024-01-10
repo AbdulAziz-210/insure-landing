@@ -1,0 +1,49 @@
+
+
+
+.footer__wrapper{
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+// .footer__social-icons{
+//     display: flex;
+// }
+
+
+.social__img+.social__img{
+    margin-left: 16px;
+}
+
+
+.company__text{
+    color: #837D88;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+.company__item--margin{
+    margin-bottom: 36px;
+
+}
+.company__link{
+    color: #2D2641;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+.list-folder{
+    display: flex;
+}
+.company__item{
+    width: 255px;
+    margin-bottom: 16px;
+}
+.company__item+.company__item{
+    margin-right: 30px;
+}

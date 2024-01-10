@@ -1,0 +1,38 @@
+
+.find-section{
+    margin-bottom: 217px;
+}
+.find{
+    padding: 69px 0 69px 81px; 
+    background: #2D2641;
+    display: flex;
+    align-items: center;
+
+    // background-image: url(../images/different/back.jpg);
+    // background-repeat: no-repeat;
+    // justify-content: space-between;
+}
+.find__wrapper{
+    width: 475px;
+}
+.find__title{
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.778px;
+
+}
+
+.find__link{
+    margin-left: 354px;
+    padding: 13px 24px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    // letter-spacing: 1.5px;
+    border: 1.5px solid #FFF;
+}

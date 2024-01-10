@@ -360,18 +360,8 @@ template {
 
 .hero {
   padding: 105px 0 127px;
-  background-image: url("../../images/hero/family img.png");
-  background-size: 540px 650px;
-  background-repeat: no-repeat;
-  background-position: calc(50% + 310px) calc(50% - 19px);
-  z-index: 2;
-}
-
-.hero__img {
-  position: absolute;
-  bottom: 85;
-  top: 115;
-  right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero__content {
@@ -408,7 +398,6 @@ template {
 .hero__link {
   color: #FFF;
   text-align: center;
-  font-family: Karla;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -416,6 +405,15 @@ template {
   letter-spacing: 1.5px;
   padding: 13px 28px;
   border: 1.5px solid #FFF;
+  transition: all 0.4s ease;
+}
+.hero__link:hover {
+  background: #FFF;
+  color: #2C2830;
+}
+.hero__link:active {
+  background: #837777;
+  color: #2C2830;
 }
 
 .site-header {
@@ -455,8 +453,6 @@ template {
 .header__link {
   margin-left: 33px;
   color: #2C2830;
-  text-align: center;
-  font-family: Karla;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -465,6 +461,15 @@ template {
   padding: 13px 28px;
   border: 2px solid #2C2830;
   background: #FFF;
+  transition: all 0.4s linear;
+}
+.header__link:hover {
+  background: #2C2830;
+  color: #FFF;
+}
+.header__link:active {
+  background: #837777;
+  color: #FFF;
 }
 
 .header__hamburger-btn {
@@ -486,10 +491,126 @@ template {
   }
 }
 .different__title {
+  margin-bottom: 96px;
   color: #2C2830;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: -1px;
+}
+
+.different__list {
+  display: flex;
+}
+
+.different__item {
+  width: 350px;
+}
+
+.different__item + .different__item {
+  margin-left: 30px;
+}
+
+.different__img {
+  margin-bottom: 32px;
+}
+
+.different__item-title {
+  margin-bottom: 16px;
+  color: #2C2830;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.389px;
+}
+
+.different__text {
+  color: #837D88;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.find-section {
+  margin-bottom: 217px;
+}
+
+.find {
+  padding: 69px 0 69px 81px;
+  background: #2D2641;
+  display: flex;
+  align-items: center;
+}
+
+.find__wrapper {
+  width: 475px;
+}
+
+.find__title {
+  color: #FFF;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.778px;
+}
+
+.find__link {
+  margin-left: 354px;
+  padding: 13px 24px;
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1.5px solid #FFF;
+}
+
+.footer__wrapper {
+  margin-bottom: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__img + .social__img {
+  margin-left: 16px;
+}
+
+.company__text {
+  color: #837D88;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.company__item--margin {
+  margin-bottom: 36px;
+}
+
+.company__link {
+  color: #2D2641;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.list-folder {
+  display: flex;
+}
+
+.company__item {
+  width: 255px;
+  margin-bottom: 16px;
+}
+
+.company__item + .company__item {
+  margin-right: 30px;
 }/*# sourceMappingURL=main.css.map */
