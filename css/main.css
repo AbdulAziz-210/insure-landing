@@ -490,6 +490,10 @@ template {
     display: block;
   }
 }
+.different-section {
+  margin-bottom: 158px;
+}
+
 .different__title {
   margin-bottom: 96px;
   color: #2C2830;
@@ -569,6 +573,10 @@ template {
   border: 1.5px solid #FFF;
 }
 
+.footer {
+  padding-bottom: 64px;
+}
+
 .footer__wrapper {
   margin-bottom: 85px;
   display: flex;
@@ -606,11 +614,14 @@ template {
   display: flex;
 }
 
+.footer__list + .footer__list {
+  margin-left: 30px;
+}
+
 .company__item {
   width: 255px;
   margin-bottom: 16px;
 }
-
-.company__item + .company__item {
-  margin-right: 30px;
+.company__item:hover > .company__link {
+  border-bottom: 1px solid black;
 }/*# sourceMappingURL=main.css.map */

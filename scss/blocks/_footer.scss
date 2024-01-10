@@ -1,16 +1,14 @@
 
 
-
+.footer{
+    padding-bottom: 64px;
+}
 .footer__wrapper{
     margin-bottom: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-// .footer__social-icons{
-//     display: flex;
-// }
-
 
 .social__img+.social__img{
     margin-left: 16px;
@@ -40,10 +38,14 @@
 .list-folder{
     display: flex;
 }
+.footer__list+.footer__list{
+    margin-left: 30px;
+}
 .company__item{
     width: 255px;
     margin-bottom: 16px;
-}
-.company__item+.company__item{
-    margin-right: 30px;
+
+    &:hover>.company__link{
+         border-bottom: 1px solid black;
+    }
 }
