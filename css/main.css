@@ -6,11 +6,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Karla", sans-serif;
+}
+
 .container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/../fonts/Karla-Bold.woff2") format("woff2"), url("../fonts/Karla-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Regular.woff2") format("woff2"), url("../fonts/Karla-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -333,4 +352,144 @@ template {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.hero-section {
+  background-color: #2D2641;
+}
+
+.hero {
+  padding: 105px 0 127px;
+  background-image: url("../../images/hero/family img.png");
+  background-size: 540px 650px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 310px) calc(50% - 19px);
+  z-index: 2;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 85;
+  top: 115;
+  right: 0;
+}
+
+.hero__content {
+  width: 540px;
+}
+
+.hero__line {
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.hero__title {
+  margin-bottom: 16px;
+  color: #FFF;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.hero__text {
+  margin-bottom: 24px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hero__link {
+  color: #FFF;
+  text-align: center;
+  font-family: Karla;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  padding: 13px 28px;
+  border: 1.5px solid #FFF;
+}
+
+.site-header {
+  padding: 21px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__navbar-folder {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.navbar__link {
+  color: #837D88;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  transition: color 0.4s linear;
+}
+.navbar__link:hover {
+  color: #2C2830;
+}
+
+.header__link {
+  margin-left: 33px;
+  color: #2C2830;
+  text-align: center;
+  font-family: Karla;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  padding: 13px 28px;
+  border: 2px solid #2C2830;
+  background: #FFF;
+}
+
+.header__hamburger-btn {
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .navbar__link {
+    display: none;
+    display: none;
+  }
+  .header__link {
+    display: none;
+  }
+  .header__hamburger-btn {
+    display: block;
+  }
+}
+.different__title {
+  color: #2C2830;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1px;
 }/*# sourceMappingURL=main.css.map */
